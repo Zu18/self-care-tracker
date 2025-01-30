@@ -87,7 +87,7 @@ load_dotenv()
 DATABASES = {
     'default': {
        'ENGINE':'django.db.backends.mysql',
-       'NAME':'myapp',
+       'NAME':'selfcare',
        'USER': os.getenv('DB_USER'),
        'PASSWORD': os.getenv('DB_PASSWORD'),
        'HOST':'localhost',
